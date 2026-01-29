@@ -1,61 +1,10 @@
-Running evaluation on 10 examples...
-LLM Judges enabled. Models: ['openrouter/google/gemini-2.0-flash-001']
---- Example ID: 1 (foo) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 2 (check_positive) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 3 (calculate_area) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 4 (process_data) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 5 (cleanup) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 6 (sum_evens) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 7 (is_valid_email) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 8 (greet) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 9 (calculate_tax) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
---- Example ID: 10 (outer) ---
-  Exact Match: True | Line Overlap: 1.0000
-  Generated Judge (openrouter/google/gemini-2.0-flash-001)... Calling OpenRouter model=openrouter/google/gemini-2.0-flash-001 url=https://openrouter.ai/api/v1/chat/completions
-Error calling LLM: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
-Score: 0.0 | Correct: False
+Running evaluation on 20 examples...
+Mode: SIMULATED
+Code Models: ['simulated']
+LLM Judges enabled: ['google/gemini-2.0-flash-001']
 
-=== Evaluation Summary ===
-Total Examples: 10
-Exact Matches:  10 (100.0%)
-Avg Line Overlap: 1.0000
+================================================================================
+EVALUATING CODE MODEL: simulated
+================================================================================
 
-Judge: openrouter/google/gemini-2.0-flash-001
-  Avg Score: 0.00
-  Correct Ratio: 0.0%
+--- Example 1: foo [easy] ---
